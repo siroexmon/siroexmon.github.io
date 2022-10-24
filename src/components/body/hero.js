@@ -31,10 +31,10 @@ function Hero() {
           </Heading>
       <Center> 
       <Stack spacing={5} direction={{base:'column', md:'row'}} >
-      <a href="https://sirox.finance">
+      <a href="https://fence.finance">
           <Box width='xs' boxShadow='xl' _hover={{boxShadow: '2xl'}} bg='gray.200' rounded={10} height='300px' display='flex' flexDirection="column" alignItems="center">
-              <Image src={"/sir0x_logo.png"} alt={"logo"} width='90%'/>
-              <Text paddingTop={1} paddingBottom={3} fontWeight='bold'>SIROX FINANCE</Text>
+              <Image src={"/fence_logo.png"} alt={"logo"} width='90%' paddingTop={10} paddingBottom={10}/>
+              <Text paddingTop={1} paddingBottom={3} fontWeight='bold'>FENCE FINANCE</Text>
               <Divider orientation='horizontal'/>
               <Text as={'span'} fontSize={{base: 'md', sm: 'md', md:'md'}} paddingLeft={2} paddingRight={2}>Building the infrastructure for next-generation debt facilities.</Text>
           </Box></a>
